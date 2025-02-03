@@ -33,6 +33,9 @@ git add requirements.txt(file name)
 git status
 
 ##Commit
+git commit -m "This commit include req.txt and readme and codefile"  
 
+##PUSH
+git push origin main
 
 ``
