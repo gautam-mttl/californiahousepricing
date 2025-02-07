@@ -7,6 +7,9 @@ app=Flask(__name__)
 ##Load the model
 regmodel=pickle.load(open('regmodel.pkl','rb'))
 
+# Load the scaler
+scalar = pickle.load(open('scaling.pkl', 'rb'))  # Ensure the correct filename
+
 @app.route('/')
 def homepage():
     return render_template('home.html')
