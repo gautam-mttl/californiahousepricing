@@ -21,9 +21,10 @@ pip freeze > requirements.txt( IF REQ FILE IS NOT THERE or can manually create a
 pip install -r requirements.txt
 
 ```
-
+```
 git config --global user.name
 git config --global user.email "gautammittal2003@gmail.com"
+```
 
 ### Committing the code
 ```
